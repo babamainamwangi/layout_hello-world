@@ -30,6 +30,10 @@ jobs:
  on:
       pull_request:
          branches: [ master ]
-         pull_request:
+
+ on:
+  pull_request:
+    branches:
+    - main
         
         
